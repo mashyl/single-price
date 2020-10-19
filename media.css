@@ -1,0 +1,9 @@
+@media (min-width: 60rem) {
+    .card {
+        grid-template-columns: repeat(2, 400px);
+    }
+
+    .part-1 {
+        grid-column: 1 / span 2;
+    }
+}

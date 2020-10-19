@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    min-height: 100%;
+    background-color: var(--light-gray);
+}
+
+h2 {
+    margin-bottom: 1.8rem;
+    font-weight: 700;
+}
+
+.card {
+    height: 100%;
+    width: min-content;
+    margin: 3rem auto 3rem auto;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.082);
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 300px;
+    grid-template-rows: minmax(200px, min-content);
+}
+
+.card div {
+    padding: 2rem 1.5rem 2rem 1.5rem;
+}
+
+.part-1 {
+    background-color: white;
+}
+
+.part-1 h2 {
+    color: var(--cyan-primary);
+}
+
+.part-1 p:first-of-type {
+    color: var(--yellow-primary);
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.part-1 p:last-of-type {
+    color: var(--gray-blue);
+    line-height: 2;
+}
+
+.part-2 {
+    background-color: var(--cyan-primary);
+    color: white;
+}
+
+.part-2 h1 {
+    display: grid;
+    column-gap: 1rem;
+    grid-template-columns: max-content 1fr;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.part-2 h1 p {
+    font-size: 1.3rem;
+    align-self: center;
+    color: var(--light-gray);
+    font-weight: 400;
+}
+
+.part-2 p {
+    color: rgba(255, 255, 255, 0.849);
+}
+
+.part-2 button {
+    background-color: var(--yellow-primary);
+    box-shadow: 2px 6px 8px rgba(0, 0, 0, 0.082);
+    margin-top: 2.5rem;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: inherit;
+    color: inherit;
+    padding: 1rem;
+}
+
+.part-2 button:hover {
+    cursor: pointer;
+    box-shadow: 2px 6px 4px rgba(0, 0, 0, 0.082) inset;
+}
+
+.part-3 {
+    background-color: var(--cyan-lighter);
+    color: white;
+    line-height: 1.5rem;
+}
+
+.part-3 p {
+    color: rgba(255, 255, 255, 0.849);
+}
