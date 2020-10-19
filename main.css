@@ -16,7 +16,7 @@ body {
 }
 
 h2 {
-    margin-bottom: 1.8rem;
+    margin-bottom: 1rem;
     font-weight: 700;
 }
 
@@ -49,7 +49,7 @@ h2 {
     color: var(--yellow-primary);
     font-weight: 700;
     font-size: 1.3rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 .part-1 p:last-of-type {
